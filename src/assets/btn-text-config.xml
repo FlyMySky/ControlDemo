@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!--
+        按钮普通设置
+        btnPlay，btnPause，btnStop，btnVolumeUp，btnVolumeDown，btnAdd 分别对应 播放，暂停，停止，+音量，-音量，添加
+        Visible 表示按钮是否可见
+        btnWidth，btnHeight分别表示 按钮的大小 宽和高
+        btnSpaceWidth，btnSpaceHeight分别表示按钮间距：水平间距和垂直间距
+        如果需要设置按钮字体，请在style文件夹下BtnStyle.css文件中修改
+    -->
+    <!--Play按钮显示的文字信息-->
+    <btnPlay>Play</btnPlay>
+    <!--Play按钮是否可见-->
+    <btnPlayVisible>true</btnPlayVisible>
+    <btnPause>Pause</btnPause>
+    <btnPauseVisible>true</btnPauseVisible>
+    <btnStop>Stop</btnStop>
+    <btnStopVisible>true</btnStopVisible>
+    <btnVolumeUp>VolumeUp</btnVolumeUp>
+    <btnVolumeUpVisible>true</btnVolumeUpVisible>
+    <btnVolumeDown>VolumeDown</btnVolumeDown>
+    <btnVolumeDownVisible>true</btnVolumeDownVisible>
+    <btnAdd>Add</btnAdd>
+    <btnAddVisible>true</btnAddVisible>
+    <btnWidth>300</btnWidth>
+    <btnHeight>100</btnHeight>
+    <btnSpaceWidth>100</btnSpaceWidth>
+    <btnSpaceHeight>200</btnSpaceHeight>
+</config>

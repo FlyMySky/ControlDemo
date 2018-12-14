@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!-- 正常显示颜色-->
+    <btnColor>#e20310</btnColor>
+    <!-- 鼠标悬浮时颜色-->
+    <btnOverColor>#e22e10</btnOverColor>
+    <!-- 鼠标按下时颜色-->
+    <btnDownColor>#e20941</btnDownColor>
+    <!-- 按钮边框颜色-->
+    <btnStrokeColor>#131313</btnStrokeColor>
+</config>
