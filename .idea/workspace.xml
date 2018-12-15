@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f87fea7-5097-4265-8f57-a7d8cdb4e0d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ControlDemo/Main.swf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ControlDemo/Main.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientMain.mxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientMain.mxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/SocketHandler.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/SocketHandler.as" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,7 +51,7 @@
           <entry key="jpg" value="1" />
           <entry key="mxml" value="6" />
           <entry key="png" value="6" />
-          <entry key="swf" value="11" />
+          <entry key="swf" value="13" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
@@ -65,23 +63,25 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="7" />
           <entry key="MXML" value="6" />
-          <entry key="SWF" value="11" />
+          <entry key="SWF" value="13" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="as" value="364" />
+          <entry key="as" value="500" />
           <entry key="css" value="210" />
           <entry key="mxml" value="1165" />
+          <entry key="txt" value="18" />
           <entry key="xml" value="355" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ActionScript" value="385" />
+          <entry key="ActionScript" value="521" />
           <entry key="CSS" value="210" />
           <entry key="MXML" value="1144" />
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="355" />
         </counts>
       </usages-collector>
@@ -89,20 +89,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClientMain.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            <state relative-caret-position="189">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/service/SocketHandler.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="315">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#19#45#0" expanded="true" />
               </folding>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/assets/btn-config.xml" />
         <option value="$PROJECT_DIR$/src/assets/btn-text-config.xml" />
         <option value="$PROJECT_DIR$/src/assets/net-config.xml" />
-        <option value="$PROJECT_DIR$/src/service/SocketHandler.as" />
         <option value="$PROJECT_DIR$/src/ClientMain.mxml" />
+        <option value="$PROJECT_DIR$/src/service/SocketHandler.as" />
       </list>
     </option>
   </component>
@@ -181,12 +181,6 @@
               <item name="ControlDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ControlDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ControlDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ControlDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,12 +291,20 @@
       <workItem from="1544756244513" duration="17918000" />
       <workItem from="1544845615107" duration="20000" />
       <workItem from="1544854407236" duration="6382000" />
-      <workItem from="1544868713365" duration="683000" />
+      <workItem from="1544868713365" duration="4527000" />
     </task>
+    <task id="LOCAL-00001" summary="//控制连接优化">
+      <created>1544869549388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544869549388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30934000" />
+    <option name="totallyTimeSpent" value="34778000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,6 +351,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="//控制连接优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="//控制连接优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/service/Const.as">
@@ -499,13 +505,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/client-background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/air/airglobal.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="5908" column="27" selection-start-line="5908" selection-start-column="27" selection-end-line="5908" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/net-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -513,20 +512,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/SocketHandler.as">
+    <entry file="file://$PROJECT_DIR$/src/ClientMain.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="e#19#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMain.mxml">
+    <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/air/airglobal.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        <state relative-caret-position="25">
+          <caret line="4504" column="25" selection-start-line="4504" selection-start-column="25" selection-end-line="4504" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/SocketHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#19#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
