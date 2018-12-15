@@ -6,6 +6,8 @@ import flash.net.Socket;
 import flash.net.URLLoader;
 import flash.net.URLRequest;
 
+import spark.components.TextArea;
+
 public class SocketHandler {
 
     internal var clientSocket:Socket;
@@ -26,11 +28,11 @@ public class SocketHandler {
         do {
             try {
                 clientSocket = new Socket(xml.ip, int(xml.port));
-                clientSocket.addEventListener(IOErrorEvent.IO_ERROR,socketError);
+                clientSocket.addEventListener(IOErrorEvent.IO_ERROR, socketError);
                 isConnected = true;
             } catch (err:Error) {
                 isConnected = false;
-                trace(err.toString())
+                trace(err.message);
             }
         } while (!isConnected) ;
         clientSocket.addEventListener(Event.CONNECT, onConnect);
@@ -38,7 +40,7 @@ public class SocketHandler {
     }
 
     private function socketClose(event:Event):void {
-        trace(event.toString())
+        trace(event.toString());
     }
 
     private function socketError(event:IOErrorEvent):void {
