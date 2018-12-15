@@ -3,6 +3,7 @@
                        xmlns:s="library://ns.adobe.com/flex/spark"
                        applicationComplete="initApp(event)"
                        showStatusBar="false"
+                       close="onClosed(event)"
 >
     <fx:Declarations>
         <fx:Model source="assets/btn-text-config.xml" id="model"/>
@@ -26,6 +27,13 @@
                 socketHandler.connect()
             } catch (e) {
                 trace("connect fail")
+            }
+        }
+
+        private function onClosed(event:Event):void {
+            if (socketHandler != null) {
+                socketHandler.close();
+                trace("wsServerSocket close")
             }
         }
         ]]></fx:Script>

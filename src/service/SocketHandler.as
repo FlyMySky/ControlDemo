@@ -43,5 +43,10 @@ public class SocketHandler {
         }
     }
 
+    public function close():void {
+        if (clientSocket != null && clientSocket.connected) {
+            clientSocket.close();
+        }
+    }
 }
 }
